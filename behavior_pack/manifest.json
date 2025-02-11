@@ -1,42 +1,46 @@
 {
     "format_version": 2,
     "header": {
-        "description": "A stewpeed plugin",
-        "min_engine_version": [1, 21, 51],
-        "name": "Minecrafto",
-        "uuid": "0842d010-54a2-4905-a416-fc2a0f01ab53",
-        "version": [1, 0, 0]
+      "name": "Minecrafto",
+      "description": "stewpeed",
+      "uuid": "7ffa93f1-d05e-45b6-ac37-e3706a2143cb",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "min_engine_version": [
+        1,
+        21,
+        51
+      ]
     },
     "modules": [
-        {
-            "description": "Behaviour pack",
-            "type": "data",
-            "uuid": "8796e8ff-54fa-4ade-8492-2353b534990a",
-            "version": [1, 0, 0]
-        },
-        {
-            "description": "A script module",
-            "type": "script",
-            "uuid": "bdbce26a-cbae-400c-9ffa-7f13f015cf9d",
-            "language": "javascript",
-            "entry": "scripts/main.js"
-        }
+      {
+        "description": "Script resources",
+        "language": "javascript",
+        "type": "script",
+        "uuid": "028bdeff-e3b1-483c-9fb0-0793d94ea085",
+        "version": [
+          1,
+          0,
+          0
+        ],
+        "entry": "scripts/main.js"
+      }
     ],
     "dependencies": [
-        {
-            "uuid": "91343fd9-ceaf-418e-9504-6dc471cd3394",
-            "version": [1, 0, 0]
-        },
-        {
-            "module_name": "@minecraft/server",
-            "version": "2.0.0-beta"
-        }
-    ],
-    "metadata": {
-        "authors": [
-            "inijooy"
-        ],
-        "license": "MIT",
-        "url": "https://github.com/inijooy"
-    }
-}
+      {
+        "module_name": "@minecraft/server",
+        "version": "2.0.0-beta"
+      },
+      {
+        "uuid": "617ec664-3be4-43ac-a24a-81ad6ffe5be6",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  }
