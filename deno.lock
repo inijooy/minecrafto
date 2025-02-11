@@ -1,0 +1,26 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@minecraft/server@2.0.0-beta.1.21.70-preview.22": "2.0.0-beta.1.21.70-preview.21_@minecraft+vanilla-data@1.21.50"
+  },
+  "npm": {
+    "@minecraft/common@1.2.0": {
+      "integrity": "sha512-JdmEq4P3Z/FtoBzhLijFgMSVFnFRrUoLwY8DHHrgtFo0mfLTOLTB1RErYjLMsA6b7BGVNxkX/pfFRiH7QZ0XwQ=="
+    },
+    "@minecraft/server@2.0.0-beta.1.21.70-preview.21_@minecraft+vanilla-data@1.21.50": {
+      "integrity": "sha512-cU8uCNRHNTTtdfsw2w6vpC9b0lZwlcH5/pkZGjj2bKGhKUWjMlKQWOK0ilh+qhmSpuEyxLWWFq+RTfyHbAnLaw==",
+      "dependencies": [
+        "@minecraft/common",
+        "@minecraft/vanilla-data"
+      ]
+    },
+    "@minecraft/vanilla-data@1.21.50": {
+      "integrity": "sha512-4tOzFRGyMxuFLJPo/tN68/FKQwTAxINxFVz4frRcSBliVbAq6hDsDcRcUykWCRFbIU59HG73r6DxwqDOc3Z3wQ=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@minecraft/server@2.0.0-beta.1.21.70-preview.22"
+    ]
+  }
+}
