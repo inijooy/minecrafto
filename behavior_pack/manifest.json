@@ -18,7 +18,8 @@
             "description": "A script module",
             "type": "script",
             "uuid": "bdbce26a-cbae-400c-9ffa-7f13f015cf9d",
-            "language": "javascript"
+            "language": "javascript",
+            "entry": "scripts/main.js"
         }
     ],
     "dependencies": [

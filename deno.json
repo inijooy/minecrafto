@@ -1,5 +1,5 @@
 {
-  "imports": {
-    "@minecraft/server": "npm:@minecraft/server@2.0.0-beta.1.21.70-preview.22"
-  }
+    "imports": {
+        "@minecraft/server": "npm:@minecraft/server@2.0.0-beta.1.21.70-preview.22"
+    }
 }
